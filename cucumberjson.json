@@ -1,0 +1,155 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "test-the-calc-angular-webpage;test-the-add-functionality",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "test the add functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": ":i am on Calc page",
+            "match": {
+              "location": "stepDefinations\\calcSD.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": ":when i enter number \"3\" and number \"5\"",
+            "match": {
+              "location": "stepDefinations\\calcSD.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": ":the result shold be \"8\"",
+            "match": {
+              "location": "stepDefinations\\calcSD.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2004000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calCTest",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-the-calc-angular-webpage;test-the-add-functionality",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "test the add functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": ":i am on \"Calc\" page",
+            "match": {
+              "location": "stepDefinations\\calcSD.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 302000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": ":when i enter number \"6\" and number \"3\"",
+            "match": {
+              "location": "stepDefinations\\calcSD.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": ":the result shold be \"9\"",
+            "match": {
+              "location": "stepDefinations\\calcSD.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1944000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calCTest",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-the-calc-angular-webpage",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "test the Calc angular webpage",
+    "tags": [],
+    "uri": "featureFiles\\calc.feature"
+  }
+]
